@@ -1,0 +1,113 @@
+site_name: Power BI Mastery Path
+site_description: A structured, module-wise Power BI program — Power Query, data modeling, DAX, time intelligence, performance, security, and enterprise deployment.
+site_url: https://sigilipelli.github.io/power-bi-mastery-path/
+repo_url: https://github.com/sigilipelli/power-bi-mastery-path
+repo_name: power-bi-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · What Power BI Is: Desktop, Service & Mobile": level-1/01-what-is-power-bi.md
+      - "02 · Getting Data": level-1/02-getting-data.md
+      - "03 · Power Query Basics": level-1/03-power-query-basics.md
+      - "04 · Data Types & Cleaning": level-1/04-data-types-cleaning.md
+      - "05 · Building Your First Visuals": level-1/05-first-visuals.md
+      - "06 · Filters & Slicers": level-1/06-filters-slicers.md
+      - "07 · Measures vs Calculated Columns": level-1/07-measures-vs-calculated-columns.md
+      - "08 · Report Formatting & Layout": level-1/08-report-formatting.md
+      - "09 · Publishing & Sharing Basics": level-1/09-publishing-sharing.md
+      - "10 · Project — A Sales Dashboard from CSV": level-1/10-project-sales-dashboard.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Star Schema & Data Modeling": level-2/01-star-schema.md
+      - "02 · Relationships, Cardinality & Filter Direction": level-2/02-relationships.md
+      - "03 · DAX Fundamentals": level-2/03-dax-fundamentals.md
+      - "04 · CALCULATE, Filter Context & Row Context": level-2/04-calculate-contexts.md
+      - "05 · Time Intelligence & the Date Table": level-2/05-time-intelligence.md
+      - "06 · Power Query M: Merges, Appends & Parameters": level-2/06-power-query-m.md
+      - "07 · Drill-through, Tooltips & Bookmarks": level-2/07-drillthrough-bookmarks.md
+      - "08 · Row-Level Security": level-2/08-row-level-security.md
+      - "09 · Refresh & Gateways": level-2/09-refresh-gateways.md
+      - "10 · Project — A Multi-Table Sales Model": level-2/10-project-sales-model.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · Iterators & Variables": level-3/01-iterators-variables.md
+      - "02 · Context Transition": level-3/02-context-transition.md
+      - "03 · ALL, REMOVEFILTERS & KEEPFILTERS": level-3/03-filter-modifiers.md
+      - "04 · Performance: VertiPaq & Performance Analyzer": level-3/04-performance-vertipaq.md
+      - "05 · Import, DirectQuery & Composite Models": level-3/05-storage-modes.md
+      - "06 · Calculation Groups": level-3/06-calculation-groups.md
+      - "07 · Field Parameters": level-3/07-field-parameters.md
+      - "08 · Advanced Visuals, Custom Visuals & Paginated Reports": level-3/08-advanced-visuals-paginated.md
+      - "09 · Deployment Pipelines": level-3/09-deployment-pipelines.md
+      - "10 · Project — An Optimized Finance Model": level-3/10-project-finance-model.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · Enterprise BI Architecture": level-4/01-enterprise-architecture.md
+      - "02 · Power BI in Microsoft Fabric": level-4/02-microsoft-fabric.md
+      - "03 · Governance & Endorsed Semantic Models": level-4/03-governance.md
+      - "04 · Data Storytelling & Dashboard Design": level-4/04-storytelling-design.md
+      - "05 · Embedding Power BI": level-4/05-embedding.md
+      - "06 · Incremental Refresh": level-4/06-incremental-refresh.md
+      - "07 · CI/CD with PBIP & Git Integration": level-4/07-cicd-pbip-git.md
+      - "08 · Accessible Reports": level-4/08-accessibility.md
+      - "09 · Testing & Validating Semantic Models": level-4/09-testing-models.md
+      - "10 · Capstone — An Enterprise Sales Analytics Solution": level-4/10-capstone.md
