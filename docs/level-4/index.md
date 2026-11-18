@@ -35,4 +35,4 @@ capacity, and when details are likely to shift.
   a Premium, PPU or Fabric capacity workspace. Where you don't have access, the lessons give a
   written design exercise instead of a hands-on one.
 - Basic Git (commit, branch, pull request). The
-  [GitHub Mastery Path](https://sigilipelli.github.io/github-mastery-path/) covers it.
+  [GitHub Mastery Path](https://learnmasterypath.com/github-mastery-path/) covers it.
