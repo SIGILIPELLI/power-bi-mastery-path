@@ -87,8 +87,8 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
-  - "📋 Cheat Sheet": cheat-sheet.md
+  - Interview Questions: interview-questions.md
+  - Cheat Sheet: cheat-sheet.md
   - "Level 1 · Entry":
       - Overview: level-1/index.md
       - "01 · What Power BI Is: Desktop, Service & Mobile": level-1/01-what-is-power-bi.md
@@ -137,5 +137,5 @@ nav:
       - "08 · Accessible Reports": level-4/08-accessibility.md
       - "09 · Testing & Validating Semantic Models": level-4/09-testing-models.md
       - "10 · Capstone — An Enterprise Sales Analytics Solution": level-4/10-capstone.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 
