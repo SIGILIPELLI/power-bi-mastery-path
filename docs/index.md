@@ -1,6 +1,6 @@
 ---
 title: "Free Power BI Course: Power Query, Data Modeling, DAX & Enterprise Reporting"
-description: "Free Power BI course — 40 lessons on Power Query, star schemas, DAX, time intelligence, row-level security, performance tuning, and enterprise deployment."
+description: "Free Power BI course — 36 lessons and 4 projects on Power Query, star schemas, DAX, time intelligence, row-level security, performance tuning, and enterprise deployment."
 ---
 
 # Power BI Mastery Path
